@@ -30,6 +30,13 @@
 
   --color-fourth: #D6CE93;              /* Vanilla */
   --color-fifth: #BBACC1;               /* Rose quartz */
+
+  --animate-spin-slow: spinslow 5s linear infinite;
+  @keyframes spinslow {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
 
 .btn-primary {

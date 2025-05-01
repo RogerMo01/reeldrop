@@ -10,18 +10,36 @@
 }
 
 @theme {
-  --color-primary: #0e5f8b;
-  --color-primary-hover: #0d4f7e;
-  --color-secondary: #c0c0c0;
-  --color-secondary-hover: #b0b0b0;
+  --color-primary: #909580;             /* Battleship gray */
+  --color-primary-l: #B6BAA8;
+  --color-primary-ll: #E5E8DB;
+  --color-primary-d: #6C715B;
+  --color-primary-dd: #393C2D;
+
+  --color-secondary: #FE654F;           /* Tomato */
+  --color-secondary-l: #FF8272;
+  --color-secondary-ll: #FFA99D;
+  --color-secondary-d: #EC3D26;
+  --color-secondary-dd: #BC220E;
+
+  --color-complementary: #383D3B;       /* Onyx */
+  --color-complementary-l: #575E5B;
+  --color-complementary-ll: #777F7C;
+  --color-complementary-d: #101211;
+  --color-complementary-dd: #0D1613;
+
+  --color-fourth: #D6CE93;              /* Vanilla */
+  --color-fifth: #BBACC1;               /* Rose quartz */
 }
 
 .btn-primary {
-  @apply bg-primary hover:bg-primary-hover text-white py-1 px-2 rounded hover:cursor-pointer;
+  @apply bg-primary-d hover:bg-primary-dd dark:bg-primary-dd dark:hover:bg-primary-d text-white py-1.5 px-3 rounded-md hover:cursor-pointer
+  transition-all ease-in-out duration-200;
 }
 
 .input-primary {
-  @apply py-0.5 px-1 border outline-none rounded-md
-  bg-gray-50 border-gray-300 focus:border-gray-500 text-gray-700
-  dark:bg-gray-900 dark:border-gray-700 dark:focus:border-gray-500 dark:text-white;
+  @apply py-1 px-1 border-b-2 outline-none rounded-md
+  bg-transparent border-gray-400 focus:border-complementary text-gray-700
+  focus:border-b-4 transition-all ease-in-out duration-300
+  dark:border-complementary dark:focus:border-complementary-ll dark:text-white;
 }

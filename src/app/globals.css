@@ -10,26 +10,26 @@
 }
 
 @theme {
-  --color-primary: #909580;             /* Battleship gray */
-  --color-primary-l: #B6BAA8;
-  --color-primary-ll: #E5E8DB;
-  --color-primary-d: #6C715B;
-  --color-primary-dd: #393C2D;
+  --color-primary: #909580; /* Battleship gray */
+  --color-primary-l: #b6baa8;
+  --color-primary-ll: #e5e8db;
+  --color-primary-d: #6c715b;
+  --color-primary-dd: #393c2d;
 
-  --color-secondary: #FE654F;           /* Tomato */
-  --color-secondary-l: #FF8272;
-  --color-secondary-ll: #FFA99D;
-  --color-secondary-d: #EC3D26;
-  --color-secondary-dd: #BC220E;
+  --color-secondary: #fe654f; /* Tomato */
+  --color-secondary-l: #ff8272;
+  --color-secondary-ll: #ffa99d;
+  --color-secondary-d: #ec3d26;
+  --color-secondary-dd: #bc220e;
 
-  --color-complementary: #383D3B;       /* Onyx */
-  --color-complementary-l: #575E5B;
-  --color-complementary-ll: #777F7C;
+  --color-complementary: #383d3b; /* Onyx */
+  --color-complementary-l: #575e5b;
+  --color-complementary-ll: #777f7c;
   --color-complementary-d: #101211;
-  --color-complementary-dd: #0D1613;
+  --color-complementary-dd: #0d1613;
 
-  --color-fourth: #D6CE93;              /* Vanilla */
-  --color-fifth: #BBACC1;               /* Rose quartz */
+  --color-fourth: #d6ce93; /* Vanilla */
+  --color-fifth: #bbacc1; /* Rose quartz */
 
   --animate-spin-slow: spinslow 5s linear infinite;
   @keyframes spinslow {

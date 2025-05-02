@@ -1,13 +1,13 @@
-import SignUpForm from "@/components/SignUpForm";
+import LogInForm from "@/components/LogInForm";
 
-function SignUpPage() {
+function LogInPage() {
   return (
     <>
       <div className="h-full flex flex-col items-center mt-20 md:justify-center md:mt-0">
-        <SignUpForm />
+        <LogInForm />
       </div>
     </>
   );
 }
 
-export default SignUpPage;
+export default LogInPage;

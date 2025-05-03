@@ -17,7 +17,7 @@ export default function HomePage() {
       <main className="flex-grow text-black dark:text-white">
         <h1>Home Page</h1>
       </main>
-      <footer className="bg-red-200">
+      <footer className="bg-red-200 dark:bg-red-950">
         <p>Footer</p>
       </footer>
     </div>

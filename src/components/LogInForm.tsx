@@ -11,7 +11,7 @@ export default function LogInForm() {
       </div>
       <form
         // onSubmit={handleSubmit}
-        className="flex flex-col mt-10 bg-primary-ll dark:bg-complementary-dd font-semibold text-complementary dark:text-white rounded-lg space-y-2 px-10 pb-8 pt-8"
+        className="flex flex-col mt-10 bg-primary-ll dark:bg-transparent dark:border border-complementary font-semibold text-complementary dark:text-white rounded-lg space-y-2 px-10 pb-8 pt-8"
       >
         <div className="flex flex-col">
           <h2 className="text-2xl font-bold mb-2">Log In</h2>

@@ -14,7 +14,7 @@ function Navbar({ Pages }: Props) {
   const router = useRouter();
 
   return (
-    <nav className="py-1 px-4 md:px-20 lg:px-32 bg-primary-l dark:bg-complementary-l">
+    <nav className="py-1 px-4 md:px-20 lg:px-32 bg-primary-l dark:bg-complementary-d">
       <div className="flex justify-between">
           
         {/* Small screens navbar menu */}

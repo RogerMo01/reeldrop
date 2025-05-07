@@ -46,7 +46,7 @@
 
 .btn-secondary {
   @apply 
-  p-2 rounded-lg border self-center hover:cursor-pointer 
+  p-1.5 rounded-lg border self-center hover:cursor-pointer 
   bg-primary-l border-complementary hover:bg-primary
   dark:bg-transparent dark:text-white dark:hover:bg-complementary
   text-complementary
@@ -55,7 +55,7 @@
 
 .input-primary {
   @apply 
-  py-1 px-1 border-b-2 outline-none rounded-md
+  p-1 border-b-2 outline-none rounded-md
   bg-transparent border-gray-400 focus:border-complementary focus:border-b-4
   dark:border-complementary dark:focus:border-complementary-ll dark:text-white
   text-gray-700
@@ -65,4 +65,13 @@
 .navbar-link {
   @apply self-center text-complementary font-semibold hover:underline hover:cursor-pointer
   dark:text-white;
+}
+
+.theme-link {
+  @apply p-1 rounded-lg flex items-center
+  bg-transparent hover:bg-gray-200
+  dark:hover:bg-gray-800
+  text-gray-500 dark:text-gray-400
+  hover:cursor-pointer
+  transition-all ease-in-out duration-300;
 }
